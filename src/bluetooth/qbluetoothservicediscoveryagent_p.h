@@ -110,6 +110,7 @@ public:
     void _q_discoveredServices(QDBusPendingCallWatcher *watcher);
     void _q_createdDevice(QDBusPendingCallWatcher *watcher);
     void _q_foundDevice(QDBusPendingCallWatcher *watcher);
+    void _q_propertiesRetrieved(QDBusPendingCallWatcher *watcher);
 #endif
 
 private:
